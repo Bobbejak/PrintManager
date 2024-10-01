@@ -1,0 +1,40 @@
+<project name="PRINTMANAGER" default="run" basedir=".">
+    <description>
+        Build file for PRINTMANAGER
+    </description>
+  
+    <!-- set global properties for this build -->
+    <property name="src" location="src/main/java"/>
+    <property name="build" location="classes"/>
+    <property name="dist" location="lib"/>
+    <property name="main-class" value="PrintInterceptor"/>
+
+    <target name="init">
+        <tstamp/>
+        <mkdir dir="${build}"/>
+    </target>
+
+    <target name="compile" depends="init" description="compile the source">
+        <javac srcdir="${src}" destdir="${build}" includeantruntime="false">
+            <compilerarg value="-Xlint:unchecked"/>
+        </javac>
+    </target>
+
+    <target name="dist" depends="compile" description="generate the distribution">
+        <mkdir dir="${dist}"/>
+        <jar jarfile="${dist}/${ant.project.name}.jar" basedir="${build}">
+            <manifest>
+                <attribute name="Main-Class" value="${main-class}"/>
+            </manifest>
+        </jar>
+    </target>
+
+    <target name="run" depends="dist">
+        <java jar="${dist}/${ant.project.name}.jar" fork="true"/>
+    </target>
+
+    <target name="clean" description="clean up">
+        <delete dir="${build}"/>
+        <delete file="${dist}/${ant.project.name}.jar"/>
+    </target>
+</project>
