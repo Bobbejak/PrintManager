@@ -15,6 +15,22 @@ extern "C" {
 JNIEXPORT jboolean JNICALL Java_com_example_PrintInterceptor_interceptPrintJob
   (JNIEnv *, jobject, jstring);
 
+/*
+ * Class:     com_example_PrintInterceptor
+ * Method:    initializeNative
+ * Signature: ()V
+ */
+JNIEXPORT void JNICALL Java_com_example_PrintInterceptor_initializeNative
+  (JNIEnv *, jobject);
+
+/*
+ * Class:     com_example_PrintInterceptor
+ * Method:    cleanupNative
+ * Signature: ()V
+ */
+JNIEXPORT void JNICALL Java_com_example_PrintInterceptor_cleanupNative
+  (JNIEnv *, jobject);
+
 #ifdef __cplusplus
 }
 #endif

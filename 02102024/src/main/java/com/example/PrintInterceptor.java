@@ -6,6 +6,8 @@ public class PrintInterceptor {
     }
 
     private native boolean interceptPrintJob(String jobName);
+    public native void initializeNative();
+    public native void cleanupNative();
 
     public void monitorPrintJobs() {
         // This method will be implemented to start monitoring print jobs
