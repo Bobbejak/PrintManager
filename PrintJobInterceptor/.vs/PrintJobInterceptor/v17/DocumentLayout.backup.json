@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\GISCustomSoftware\\PrintManager\\PrintJobInterceptor\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BFF834C4-F717-4257-A9B9-55CD987626B9}|PrintJobInterceptorNative\\PrintJobInterceptorNative.vcxproj|C:\\GISCustomSoftware\\PrintManager\\02102024\\src\\main\\cpp\\PrintInterceptorNative.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFF834C4-F717-4257-A9B9-55CD987626B9}|PrintJobInterceptorNative\\PrintJobInterceptorNative.vcxproj|C:\\GISCustomSoftware\\PrintManager\\PrintJobInterceptor\\PrintJobInterceptorNative\\PrintJobInterceptorNative.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BFF834C4-F717-4257-A9B9-55CD987626B9}|PrintJobInterceptorNative\\PrintJobInterceptorNative.vcxproj|solutionrelative:PrintJobInterceptorNative\\PrintJobInterceptorNative.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PrintInterceptorNative.cpp",
+              "DocumentMoniker": "C:\\GISCustomSoftware\\PrintManager\\02102024\\src\\main\\cpp\\PrintInterceptorNative.cpp",
+              "RelativeDocumentMoniker": "..\\02102024\\src\\main\\cpp\\PrintInterceptorNative.cpp",
+              "ToolTip": "C:\\GISCustomSoftware\\PrintManager\\02102024\\src\\main\\cpp\\PrintInterceptorNative.cpp",
+              "RelativeToolTip": "..\\02102024\\src\\main\\cpp\\PrintInterceptorNative.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-02T01:25:58.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PrintJobInterceptorNative.cpp",
+              "DocumentMoniker": "C:\\GISCustomSoftware\\PrintManager\\PrintJobInterceptor\\PrintJobInterceptorNative\\PrintJobInterceptorNative.cpp",
+              "RelativeDocumentMoniker": "PrintJobInterceptorNative\\PrintJobInterceptorNative.cpp",
+              "ToolTip": "C:\\GISCustomSoftware\\PrintManager\\PrintJobInterceptor\\PrintJobInterceptorNative\\PrintJobInterceptorNative.cpp",
+              "RelativeToolTip": "PrintJobInterceptorNative\\PrintJobInterceptorNative.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-02T01:17:57.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
